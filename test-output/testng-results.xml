@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="WeInvest" duration-ms="29318" started-at="2019-12-12T10:08:04Z" finished-at="2019-12-12T10:08:34Z">
+    <groups>
+    </groups>
+    <test name="TaskB" duration-ms="22209" started-at="2019-12-12T10:08:04Z" finished-at="2019-12-12T10:08:26Z">
+      <class name="com.qa.test.TestB">
+        <test-method status="PASS" signature="browserSetup()[pri:0, instance:com.qa.test.TestB@7d9d1a19]" name="browserSetup" is-config="true" duration-ms="9685" started-at="2019-12-12T10:08:04Z" finished-at="2019-12-12T10:08:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserSetup -->
+        <test-method status="PASS" signature="doInvest()[pri:0, instance:com.qa.test.TestB@7d9d1a19]" name="doInvest" duration-ms="12489" started-at="2019-12-12T10:08:14Z" finished-at="2019-12-12T10:08:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doInvest -->
+      </class> <!-- com.qa.test.TestB -->
+    </test> <!-- TaskB -->
+    <test name="TaskC" duration-ms="7083" started-at="2019-12-12T10:08:26Z" finished-at="2019-12-12T10:08:34Z">
+      <class name="com.qa.test.TestC">
+        <test-method status="PASS" signature="browserSetup()[pri:0, instance:com.qa.test.TestC@5700d6b1]" name="browserSetup" is-config="true" duration-ms="6650" started-at="2019-12-12T10:08:26Z" finished-at="2019-12-12T10:08:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserSetup -->
+        <test-method status="PASS" signature="doInvest()[pri:0, instance:com.qa.test.TestC@5700d6b1]" name="doInvest" duration-ms="430" started-at="2019-12-12T10:08:33Z" finished-at="2019-12-12T10:08:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doInvest -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.qa.test.TestC@5700d6b1]" name="afterSuite" is-config="true" duration-ms="911" started-at="2019-12-12T10:08:34Z" finished-at="2019-12-12T10:08:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.qa.test.TestC -->
+    </test> <!-- TaskC -->
+  </suite> <!-- WeInvest -->
+</testng-results>

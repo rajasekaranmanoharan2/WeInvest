@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [KezavaCMS]">
+  <test thread-count="5" name="AddClinicRequest(failed)">
+    <parameter name="strPasword" value="Chmc4300"/>
+    <parameter name="strUserName" value="Providergyn"/>
+    <classes>
+      <class name="com.qa.test.AddProviderClinicRequestTest">
+        <methods>
+          <include name="reqProviderAddClinic"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.qa.test.AddProviderClinicRequestTest -->
+      <class name="com.qa.test.HomeTest">
+        <methods>
+          <include name="enterCMSApp"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.qa.test.HomeTest -->
+    </classes>
+  </test> <!-- AddClinicRequest(failed) -->
+  <test thread-count="5" name="AddClinicConfirm(failed)">
+    <parameter name="strPasword" value="Chmc4300"/>
+    <parameter name="strUserName" value="Cliniccordgyn02"/>
+    <classes>
+      <class name="com.qa.test.HomeTest">
+        <methods>
+          <include name="enterCMSApp"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.qa.test.HomeTest -->
+      <class name="com.qa.test.AddProviderClinicConfirmTest">
+        <methods>
+          <include name="confirmProviderAddClinic"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.qa.test.AddProviderClinicConfirmTest -->
+    </classes>
+  </test> <!-- AddClinicConfirm(failed) -->
+</suite> <!-- Failed suite [KezavaCMS] -->

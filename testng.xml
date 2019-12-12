@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="WeInvest" >
+	<test name="TaskB">
+			<classes>
+				<class name="com.qa.test.TestB" />	
+			</classes>
+	</test>	
+	<test name="TaskC">
+			<classes>
+				<class name="com.qa.test.TestC" />		
+			</classes>
+	</test>	
+</suite>
